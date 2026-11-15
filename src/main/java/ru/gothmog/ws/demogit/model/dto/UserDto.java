@@ -1,4 +1,4 @@
-package ru.gothmog.ws.demogit.model;
+package ru.gothmog.ws.demogit.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserEntity {
-
+public class UserDto {
     private String firstName;
     private String lastName;
     private int age;
