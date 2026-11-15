@@ -2,6 +2,8 @@ package ru.gothmog.ws.demogit.service;
 
 import ru.gothmog.ws.demogit.model.dto.UserDto;
 
+import java.util.List;
+
 public interface UserService {
 
     UserDto getById(Long id);
@@ -11,4 +13,6 @@ public interface UserService {
     UserDto updateUser(UserDto userDto);
 
     UserDto deleteUser(Long id);
+
+    List<UserDto> getAllUsers();
 }
